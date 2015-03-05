@@ -3,7 +3,7 @@
 <html>
 <body>
 	<h3>
-		This is a program that tests you manhood. It compares your name with the word faget in your mother tongue and 
+		This is a program that tests your manhood. It compares your name with the word faget in your mother tongue and 
 		retrieves the percentage of similarity. <br><br><br><br>
 	</h3>
 	<form action="lol.php" method="GET">
