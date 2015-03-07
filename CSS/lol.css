@@ -7,4 +7,25 @@ input,b,h3 ,p{
 			font-family:arial;
 			text-align:center;
 			text-indent:25px;
-		}
+}
+		
+input {
+	background-color: gray;
+	border-right: none;
+	border-bottom:none;
+	border-color: blue;
+}
+
+input:Hover{
+	background-color:white;
+	border-color: red;
+	border-left: 2px, red;
+	border-right: 2px, red;
+}
+
+input:active{
+	background-color:blue;
+	color:black;
+	width:100px;
+	height:auto;
+}
