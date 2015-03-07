@@ -27,10 +27,10 @@ if ( ( isset ($_GET['name'])&&!empty($_GET['name']) ) && ( isset ($_GET['faget']
 	$faget = strtolower($faget1);
 	
 	if( $name != 'joão ferraz' && $name != 'joão pedro ferraz'&& $name != 'joão pedro ferreira ferraz' && $name != 'joão pedro ferreira abrantes ferraz'
-	&& $name!= 'joão seco'&& $name != 'joão fazendeiro seco' && $name != 'ivan do carmo'){
+	&& $name!= 'joão seco'&& $name != 'joão fazendeiro seco' && $name!= 'joao seco' && $name!= 'joao fazendeiro seco' && $name != 'ivan do carmo'){
 		similar_text($name, $faget, $result);
 		echo '<p>'.$result .'% Similarity between your name and '.$faget1.'.</p>';
-	}elseif ($name == 'joão seco' || $name == 'joão fazendeiro seco') {
+	}elseif ($name == 'joão seco' || $name == 'joão fazendeiro seco' || $name == 'joao seco' || $name == 'joao fazendeiro seco') {
 		echo '<p>99%</p>';
 	}elseif($name == 'ivan do carmo'){
 		echo '<p>You have broken the scale! You are a faget queen!</p>';
